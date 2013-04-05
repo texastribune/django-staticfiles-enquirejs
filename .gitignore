@@ -1,0 +1,4 @@
+# byproducts of setup.py
+*.egg-info/*
+build/*
+dist/*
