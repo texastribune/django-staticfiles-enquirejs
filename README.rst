@@ -44,6 +44,12 @@ build.py example::
     python support/build.py 1.5.6
 
 
+License
+-------
+
+`enquire.js`_ is licensed MIT (http://www.opensource.org/licenses/mit-license.php)
+
+
 .. _enquire.js: http://wicky.nillia.ms/enquire.js/
 .. _django-staticfiles: https://github.com/jezdez/django-staticfiles
 .. _pip: http://www.pip-installer.org/
