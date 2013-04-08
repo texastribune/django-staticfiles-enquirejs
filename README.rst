@@ -3,6 +3,13 @@ django-staticfiles-enquirejs
 `enquire.js`_ meets Django staticfiles
 
 
+About enquire.js
+----------------
+
+`enquire.js`_ is a lightweight, pure javascript library (with no dependencies)
+for programmatically responding to media queries.
+
+
 Usage
 -----
 This application is meant to be used with `django.contrib.staticfiles`_ or
@@ -51,14 +58,15 @@ build.py example::
     python support/build.py 1.5.6
 
 
-About enquire.js
-----------------
+.. _license:
 
-`enquire.js`_ is a lightweight, pure javascript library (with no dependencies)
-for programmatically responding to media queries.
+License
+```````
+
+This software is licensed under the `Apache Software License`. See the
+``LICENSE`` file in the top distribution directory for the full license text.
 
 `enquire.js`_ is licensed MIT (http://www.opensource.org/licenses/mit-license.php)
-
 
 .. _enquire.js: http://wicky.nillia.ms/enquire.js/
 .. _django.contrib.staticfiles: https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/
