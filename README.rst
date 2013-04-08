@@ -5,21 +5,28 @@ django-staticfiles-enquirejs
 
 Usage
 -----
-This application is meant to be used with `django-staticfiles`_.  Make sure
-that staticfiles setup and configured, then install this application using
-`pip`_:
-
-::
+This application is meant to be used with `django.contrib.staticfiles`_ or
+`django-staticfiles`_.  Make sure that staticfiles is set up and configured,
+then install this application using `pip`_::
 
 	pip install django-staticfiles-enquirejs
 
 Finally, make sure that `enquirejs` is listed in your ``INSTALLED_APPS``.  You
-can use this oneliner to add it as well:
-
-::
+can use this oneliner to add it as well::
 
 	INSTALLED_APPS += ['enquirejs', ]
 
+Adding enquire.js to your Django templates:
+
+* Using `django.contrib.staticfiles`_ or `django-staticfiles`_ with a
+  templatetag::
+
+    {% load static from staticfiles %}
+    <script src="{% static 'enquirejs/enquire.min.js' %}"></script>
+
+* or the context variable ``STATIC_URL``::
+
+    <script src="{{ STATIC_URL }}enquirejs/enquire.min.js"></script>
 
 Build
 -----
@@ -54,5 +61,6 @@ for programmatically responding to media queries.
 
 
 .. _enquire.js: http://wicky.nillia.ms/enquire.js/
+.. _django.contrib.staticfiles: https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/
 .. _django-staticfiles: https://github.com/jezdez/django-staticfiles
 .. _pip: http://www.pip-installer.org/
