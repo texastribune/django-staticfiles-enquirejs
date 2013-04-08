@@ -44,8 +44,11 @@ build.py example::
     python support/build.py 1.5.6
 
 
-License
--------
+About enquire.js
+----------------
+
+`enquire.js`_ is a lightweight, pure javascript library (with no dependencies)
+for programmatically responding to media queries.
 
 `enquire.js`_ is licensed MIT (http://www.opensource.org/licenses/mit-license.php)
 
