@@ -24,7 +24,7 @@ can use this oneliner to add it as well:
 Build
 -----
 
-Using `make`:
+Using ``make``:
 
 1. Set VERSION to the target version to build
 2. Run ``make``
@@ -36,7 +36,7 @@ makefile example::
 
 Using `build.py`:
 
-1. Run `python support/build.py <version>` to build that version of enquirejs.
+1. Run ``python support/build.py <version>`` to build that version of enquirejs.
    This will also update the VERSION file.
 
 build.py example::
